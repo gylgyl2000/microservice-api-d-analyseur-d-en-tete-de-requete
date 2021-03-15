@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microservice API d'analyseur d'en-tête de requête | gylgyl2000</title>
+        <link rel="shortcut icon" href="https://monwikidevweb.la-loutre.fr/img/otter-solid.svg" type="image/x-icon"/>
+        <link href="../public/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 id="titleExpress">Microservice avec npm, Node et Espress</h2>
+            <span id="title">API d'analyseur d'en-tête de requête</span>
+            <div class="main">
+                <div class="utilisation">
+                    <p id="docs"><b>Utilisation</b></p>
+                    <ol>
+                        <li> Le point de terminaison de l'API est GET <span class="bold">/api/whoami</span>.
+                        </li>
+                        <li> L'API renvoie un JSON ayant la structure
+                            <code>{"ipaddress": , "language": , "software": }</code>.<br>
+                            Par exemple <code>{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",
+                                "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>.
+                        </li>
+                    </ol>
+                </div>
+                <div class="examples-section">
+                    <p id="docs"><b>Exemples</b></p>
+                    <ul>
+                        <li>Entrée<br>
+                            <span class="bold"><a target="_blank" href="../api/whoami">/api/whoami</a></span>
+                        </li>
+                        <hr>
+                        <li>Sortie<br>
+                            <span><code>{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",<br />
+                                "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer">Fabriqué à la main avec <span class="bold">♥</span> par <span class="bold">
+                <a target="_blank" href="https://github.com/gylgyl2000">LaLoutre</a></span></p>
+        </div>
+    </body>
+</html>

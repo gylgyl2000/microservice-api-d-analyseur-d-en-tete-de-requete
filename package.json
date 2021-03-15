@@ -1,0 +1,27 @@
+{
+    "author": "Gilles Chassignet",
+    "name": "microservice-api-d-analyseur-d-en-tete-de-requete",
+    "version": "0.0.1",
+    "description": "Application JavaScript full stack d'analyseur d'en-tête de requête",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "microservice",
+        "freecodecamp",
+        "headerparser"
+    ],
+    "dependencies": {
+        "express": "^4.14.0",
+        "cors": "2.8.0",
+        "dotenv": "^8.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gylgyl2000/microservice-api-d-horodatage.git"
+    },
+    "license": "MIT"
+}
